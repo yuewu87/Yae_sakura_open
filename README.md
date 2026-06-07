@@ -28,7 +28,7 @@
 ```bash
 git clone https://github.com/yuewu87/Yae_sakura_open.git
 cd Yae_sakura_open
-python setup.py
+setup.bat
 ```
 
 脚本自动完成：pip 依赖安装 → 模型下载 → 引擎克隆 → .env 初始化。
