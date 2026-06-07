@@ -125,11 +125,13 @@ python 20_ui_第十七版_八重樱_沉浸界面.py
 
 ## 特别感谢
 
-- [RVC-Boss/GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) — GPT-SoVITS 开发者
-- 花儿不哭大佬
-- 二游模型训练者
-- 红血球AE3803大佬
-- 白菜工厂1145号员工大佬
+本项目基于以下开源项目和个人贡献者的工作：
+
+- **[RVC-Boss/GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)** — GPT-SoVITS 引擎
+- **花儿不哭大佬** — GPT-SoVITS 开发者
+- **二游模型训练者**
+- **红血球AE3803大佬**
+- **白菜工厂1145号员工大佬**
 
 开源万岁。
 
