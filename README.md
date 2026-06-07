@@ -123,6 +123,16 @@ python 20_ui_第十七版_八重樱_沉浸界面.py
 - Qt 5.15 内嵌 Chromium 不支持 `backdrop-filter`
 - GPT-SoVITS 与当前项目子模块方案不兼容，需手动 clone 到指定目录
 
+## 特别感谢
+
+- [RVC-Boss/GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) — GPT-SoVITS 开发者
+- 花儿不哭大佬
+- 二游模型训练者
+- 红血球AE3803大佬
+- 白菜工厂1145号员工大佬
+
+开源万岁。
+
 ## License
 
 MIT License — 详见 [LICENSE](LICENSE)
