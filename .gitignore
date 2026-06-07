@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 环境变量（API密钥）
+.env
+
+# 模型文件（通过 download_models.py 下载）
+data/text_models/
+data/TTS_models/
+data/live2d_models/
+
+# GPT-SoVITS 引擎（需单独 clone）
+TTS_GPT_SoVITS/GPT_SoVITS/
+
+# TTS 输出
+TTS_GPT_SoVITS/tts_output/
+
+# 记忆数据（运行时生成）
+need/assets/sakura_memory.json
+data/sakura_vault/
+data/last_leave.txt
+
+# IDE
+.vscode/
+.idea/
+
+# 系统
+.DS_Store
+Thumbs.db

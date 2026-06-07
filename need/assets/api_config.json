@@ -1,0 +1,9 @@
+{
+  "provider": "deepseek",
+  "base_url": "https://api.deepseek.com",
+  "model": "deepseek-v4-pro",
+  "extra_body": {
+    "reasoning_effort": "high"
+  },
+  "idle_timeout_minutes": 10
+}
