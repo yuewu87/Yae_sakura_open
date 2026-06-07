@@ -19,10 +19,10 @@ websockets>=12.0
 
 # 视觉系统
 mediapipe>=0.10
+opencv-python>=4.8
+
+# TTS
+torchaudio
 
 # 模型下载
 huggingface_hub>=0.20
-
-# 可选
-# opencv-python>=4.8   # 视觉系统人脸检测（无此包自动降级）
-# torchaudio           # TTS 音频处理（无此包用 soundfile 替代）
