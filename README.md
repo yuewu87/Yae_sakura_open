@@ -23,26 +23,33 @@
 
 ## 快速开始
 
-### 1. 克隆仓库
+### 一键安装
 
 ```bash
 git clone https://github.com/yuewu87/Yae_sakura_open.git
 cd Yae_sakura_open
+python setup.py
 ```
 
-### 2. 安装依赖
+脚本自动完成：pip 依赖安装 → 模型下载 → 引擎克隆 → .env 初始化。
 
+完成后编辑 `.env` 填入 API Key，安装 GPT-SoVITS 子依赖，即可启动。
+
+### 分步安装
+
+如果不使用一键脚本，可以按以下步骤操作：
+
+**1. 安装依赖**
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. 下载模型和引擎
-
+**2. 下载模型和引擎**
 ```bash
 python download_models.py
 ```
 
-脚本会自动完成三件事：
+脚本会自动完成：
 - 从 HuggingFace 下载 `shibing624/text2vec-base-chinese` — 文本嵌入模型 (422M)
 - 从 HuggingFace 下载 `yuewu871/yae-sakura-models` — TTS 权重 + Live2D 模型 + 参考音频 (248M)
 - `git clone` GPT-SoVITS 引擎到 `TTS_GPT_SoVITS/GPT_SoVITS/`
@@ -50,10 +57,9 @@ python download_models.py
 > 脚本运行完毕后，需手动安装 GPT-SoVITS 依赖：`pip install -r TTS_GPT_SoVITS/GPT_SoVITS/requirements.txt`
 > GPT-SoVITS 还需要 FFmpeg，建议 `conda install ffmpeg`
 
-### 4. 配置 API 密钥
+**3. 配置 API 密钥**
 
 复制 `.env.example` 为 `.env`，填入至少一个运营商的 API Key：
-
 ```bash
 cp .env.example .env
 ```
@@ -63,7 +69,7 @@ cp .env.example .env
 - **千问 (Qwen)** — https://dashscope.aliyun.com
 - **MiMo** — https://mimo.chat
 
-### 5. 启动
+### 4. 启动
 
 ```bash
 python 20_ui_第十七版_八重樱_沉浸界面.py
