@@ -1,12 +1,28 @@
+# 桌面UI
 PyQt5>=5.15
 PyQtWebEngine>=5.15
+
+# LLM API
 openai>=1.0
+
+# 记忆 & 知识库
 jieba>=0.42
 text2vec>=1.3
 numpy>=1.26
-mediapipe>=0.10
-websocket-client>=1.9
-Pillow>=10.0
-requests>=2.32
+
+# TTS 服务端
+torch>=2.0
 soundfile>=0.13
-sounddevice>=0.5
+fastapi>=0.100
+uvicorn>=0.20
+websockets>=12.0
+
+# 视觉系统
+mediapipe>=0.10
+
+# 模型下载
+huggingface_hub>=0.20
+
+# 可选
+# opencv-python>=4.8   # 视觉系统人脸检测（无此包自动降级）
+# torchaudio           # TTS 音频处理（无此包用 soundfile 替代）
