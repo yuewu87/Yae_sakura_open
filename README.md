@@ -73,23 +73,18 @@ cp .env.example .env
 
 ### 6. 启动
 
-先启动 TTS 服务（独立终端）：
-
-```bash
-python TTS_GPT_SoVITS/start_servers.py
-```
-
-再启动主界面（另一个终端）：
-
 ```bash
 python 20_ui_第十七版_八重樱_沉浸界面.py
 ```
+
+启动后，通过左上角 `=` 按钮打开侧边栏 → **语音系统** → 点击「启动TTS服务器」。TTS 服务首次加载模型较慢（约 30 秒-2 分钟），受电脑配置影响，请耐心等待。服务器就绪后点击「连接」即可使用语音。
+
+> 也可以手动在另一个终端启动 TTS：`python TTS_GPT_SoVITS/start_servers.py`
 
 ## 项目结构
 
 ```
 ├── 20_ui_第十七版_八重樱_沉浸界面.py   # 主程序入口
-├── 启动TTS服务.bat                      # TTS 一键启动（Windows）
 ├── download_models.py                   # 模型下载脚本
 ├── requirements.txt                     # Python 依赖
 ├── need/                                # 核心功能模块
